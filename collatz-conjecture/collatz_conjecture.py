@@ -6,7 +6,7 @@ def steps(n):
 
         print(count, n)
         
-        if (n == int(n) or (n < 0)) == False:
+        if n == int(n) and (n > 0) == False:
             raise ValueError('not an integer or negative')
             break
             
