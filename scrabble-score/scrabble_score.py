@@ -26,5 +26,3 @@ def score(word):
     total_scrabble_score = sum([scrabble_letters_to_scores[letter] for letter in word])
     
     return total_scrabble_score
-                               
-    
