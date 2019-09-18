@@ -19,9 +19,8 @@ def score(word):
             letter_score = {letter: int(score_value)}
             scrabble_letters_to_scores.update(letter_score)
     
-    # Split word to characters
+    # Set word to uppercase
     word = word.upper()
-    chars_of_word = [c for c in word]
     
     # Calculate the total score from "scrabble_letters_to_score"
     total_scrabble_score = sum([scrabble_letters_to_scores[letter] for letter in word])
