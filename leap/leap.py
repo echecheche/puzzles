@@ -1,4 +1,5 @@
 def leap_year(year):
-    return("I was born in " + str(year))
+  
+    return("Party like it's " + str(year))
 
-print(leap_year(1994))
+    print(leap_year(1999))
