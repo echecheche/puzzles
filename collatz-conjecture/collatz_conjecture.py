@@ -19,7 +19,7 @@ def steps(n):
 
         count += 1
             
-    print(count,n)gi
+    print(count,n)
 
 
         
